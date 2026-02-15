@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Kamikaze Muay Thai Ecuador</string>
+
+    <!-- Home -->
+    <string name="home_novedades_title">🔥 Novedades</string>
+    <string name="home_novedades_desc">¡Inscripciones abiertas para el nuevo ciclo de entrenamiento intensivo! Mejora tu técnica y condición física.</string>
+    <string name="home_evento_title">📅 Próximo Evento</string>
+    <string name="home_evento_desc">Campeonato Nacional en el Coliseo de los Quitus, 13 de marzo 2026. ¡No te lo pierdas!</string>
+
+    <!-- School -->
+    <string name="school_title">Nuestra Escuela</string>
+    <string name="school_credo_title">Credo Kamikaze</string>
+    <string name="school_credo_desc">En Kamikaze Muay Thai Ecuador, no solo enseñamos a pelear, enseñamos disciplina, respeto y autosuperación.</string>
+    <string name="school_instructor_title">Instructor</string>
+    <string name="school_instructor_name">Miguel Angel Mendoza (14° Khan)</string>
+    <string name="school_instructor_master">Arjarn (Master)</string>
+    <string name="school_instructor_desc">Con una trayectoria de excelencia formando guerreros y campeones en el arte de las 8 extremidades.</string>
+
+    <!-- Locations -->
+    <string name="locations_title">Nuestras Sedes</string>
+    <string name="locations_sede_norte">📍 Sede Norte</string>
+    <string name="locations_sede_valle">📍 Sede Valle</string>
+    <string name="locations_click_details">Click para ver detalles</string>
+
+    <!-- Classes -->
+    <string name="classes_title">Horarios</string>
+    <string name="classes_morning_title">🌞 Mañana (Lun-Vie)</string>
+    <string name="classes_morning_1">07:00 AM - 08:00 AM</string>
+    <string name="classes_morning_2">08:00 AM - 09:00 AM</string>
+    <string name="classes_morning_3">09:00 AM - 10:00 AM</string>
+    <string name="classes_afternoon_title">⛅ Tarde (Lun-Vie)</string>
+    <string name="classes_afternoon_1">04:00 PM - 05:00 PM</string>
+    <string name="classes_afternoon_2">05:00 PM - 06:00 PM</string>
+    <string name="classes_night_title">🌙 Noche (Lun-Vie)</string>
+    <string name="classes_night_1">06:00 PM - 07:00 PM</string>
+    <string name="classes_night_2">07:00 PM - 08:00 PM</string>
+
+    <!-- Contact -->
+    <string name="contact_title">Contáctanos</string>
+    <string name="contact_location_title">📍 Ubicación</string>
+    <string name="contact_location_desc">Av. Napo y Alpahuasi, Quito, Ecuador</string>
+    <string name="contact_phone_title">📞 Teléfono</string>
+    <string name="contact_phone_desc">+593 98 447 0526</string>
+    <string name="contact_email_title">✉️ Email</string>
+    <string name="contact_email_desc">kamikazeartesmarciales@gmail.com</string>
+
+    <!-- Bottom Navigation -->
+    <string name="bottom_nav_home">Inicio</string>
+    <string name="bottom_nav_school">Escuela</string>
+    <string name="bottom_nav_locations">Sedes</string>
+    <string name="bottom_nav_classes">Horarios</string>
+    <string name="bottom_nav_contact">Contacto</string>
+</resources>
