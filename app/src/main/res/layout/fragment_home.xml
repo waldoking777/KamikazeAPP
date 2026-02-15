@@ -10,14 +10,23 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <androidx.cardview.widget.CardView
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/kamikaze"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/kamikaze_logo_desc"/>
+
+        <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_novedades"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="8dp"
-            app:cardElevation="4dp">
+            app:cardElevation="4dp"
+            app:strokeColor="@color/red"
+            app:strokeWidth="2dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -40,15 +49,17 @@
                     android:text="@string/home_novedades_desc"
                     android:textColor="@color/white" />
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
 
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_evento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="8dp"
-            app:cardElevation="4dp">
+            app:cardElevation="4dp"
+            app:strokeColor="@color/red"
+            app:strokeWidth="2dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -71,6 +82,6 @@
                     android:text="@string/home_evento_desc"
                     android:textColor="@color/white" />
                 </LinearLayout>
-            </androidx.cardview.widget.CardView>
+            </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
 </ScrollView>

@@ -5,7 +5,7 @@
     <string name="home_novedades_title">🔥 Novedades</string>
     <string name="home_novedades_desc">¡Inscripciones abiertas para el nuevo ciclo de entrenamiento intensivo! Mejora tu técnica y condición física.</string>
     <string name="home_evento_title">📅 Próximo Evento</string>
-    <string name="home_evento_desc">Campeonato Nacional en el Coliseo de los Quitus, 13 de marzo 2026. ¡No te lo pierdas!</string>
+    <string name="home_evento_desc">Campeonato Nacional de Muay Thai en el Coliseo de los Quitus, Quito - Ecuador, Fecha: 7 de marzo 2026. ¡No te lo pierdas!</string>
 
     <!-- School -->
     <string name="school_title">Nuestra Escuela</string>
@@ -18,8 +18,7 @@
 
     <!-- Locations -->
     <string name="locations_title">Nuestras Sedes</string>
-    <string name="locations_sede_norte">📍 Sede Norte</string>
-    <string name="locations_sede_valle">📍 Sede Valle</string>
+    <string name="location_name_format">📍 %1$s</string>
     <string name="locations_click_details">Click para ver detalles</string>
 
     <!-- Classes -->
@@ -50,4 +49,5 @@
     <string name="bottom_nav_locations">Sedes</string>
     <string name="bottom_nav_classes">Horarios</string>
     <string name="bottom_nav_contact">Contacto</string>
+    <string name="kamikaze_logo_desc">Kamikaze Logo</string>
 </resources>
