@@ -10,7 +10,7 @@
     <!-- School -->
     <string name="school_title">Nuestra Escuela</string>
     <string name="school_credo_title">Credo Kamikaze</string>
-    <string name="school_credo_desc">En Kamikaze Muay Thai Ecuador, no solo enseñamos a pelear, enseñamos disciplina, respeto y autosuperación.</string>
+    <string name="school_credo_desc"><![CDATA[<ul><li>Amistad y prosperidad mutua.</li><li>Lo simple y lo básico, es la esencia de todo.</li><li>Desarrollar las cualidades humanas, a la par de las habilidades físicas.</li><li>Pensar cada palabra antes de pronunciarla.</li><li>Estudiar la defensa personal como causa interna y luego como efecto externo.</li><li>Respetar al oponente y ganarse el respeto de el: la finalidad es ser todos amigos.</li><li>No tomarse en serio las victorias o derrotas en competencias deportivas.</li><li>Vencer cuando es justo vencer y perder cuando es justo perder.</li><li>Todo tiene un precio, menos nuestra etica, moral y lealtad. Ganate las cosas respetando los procesos, tiempos y cumpliendo las reglas.</li><li>Nadie está más vacío que aquel que está lleno de sí mismo: no dejes que tu ego te domine.</li><li>Acuerdate de donde saliste y que ahi siempre puedes volver, acuerdate de como llegaste y a costillas de quien. Respeta y valora a tu maestro y a tu dojo.</li></ul><br/>Yo kamikaze siempre, no solo cuando me conviene.]]></string>
     <string name="school_instructor_title">Instructor</string>
     <string name="school_instructor_name">Miguel Angel Mendoza (14° Khan)</string>
     <string name="school_instructor_master">Arjarn (Master)</string>
@@ -18,7 +18,6 @@
 
     <!-- Locations -->
     <string name="locations_title">Nuestras Sedes</string>
-    <string name="location_name_format">📍 %1$s</string>
     <string name="locations_click_details">Click para ver detalles</string>
 
     <!-- Classes -->

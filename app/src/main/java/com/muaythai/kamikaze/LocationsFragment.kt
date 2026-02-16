@@ -1,13 +1,12 @@
 package com.muaythai.kamikaze
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class LocationsFragment : Fragment() {
 
@@ -17,27 +16,12 @@ class LocationsFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_locations, container, false)
 
+        val locationsRecyclerView = view.findViewById<RecyclerView>(R.id.locations_recycler_view)
+        locationsRecyclerView.layoutManager = LinearLayoutManager(context)
+
         val locations = LocationRepository.getLocations()
-
-        if (locations.size >= 2) {
-            val sedeNorteCard = view.findViewById<CardView>(R.id.sede_norte_card)
-            val sedeNorteName = view.findViewById<TextView>(R.id.sede_norte_name)
-            sedeNorteName.text = getString(R.string.location_name_format, locations[0].name)
-            sedeNorteCard.setOnClickListener {
-                val intent = Intent(context, LocationDetailActivity::class.java)
-                intent.putExtra("location_id", locations[0].id)
-                startActivity(intent)
-            }
-
-            val sedeValleCard = view.findViewById<CardView>(R.id.sede_valle_card)
-            val sedeValleName = view.findViewById<TextView>(R.id.sede_valle_name)
-            sedeValleName.text = getString(R.string.location_name_format, locations[1].name)
-            sedeValleCard.setOnClickListener {
-                val intent = Intent(context, LocationDetailActivity::class.java)
-                intent.putExtra("location_id", locations[1].id)
-                startActivity(intent)
-            }
-        }
+        val adapter = LocationAdapter(locations)
+        locationsRecyclerView.adapter = adapter
 
         return view
     }
